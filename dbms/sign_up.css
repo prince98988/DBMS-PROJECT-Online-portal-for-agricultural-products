@@ -1,0 +1,133 @@
+body{
+  background-image: url("back_image.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+}
+
+
+span{
+  color: white;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+}
+
+span.error{
+  color: red;
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+div.inner{
+  border-width:1px solid grey;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  width:400px;
+  height:500px;
+  font-size: 18;
+  font-weight: bold;
+  align-self: auto;
+  float: left;
+}
+div.inner1{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+  
+  padding-left: 50px;
+  width:200px;
+  height:200px;
+  font-size: 18;
+  font-weight: bold;
+ 
+}
+
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: white;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+img{
+  width:550px;
+  height:600px;
+  float:right ;
+  position:relative;
+  margin-right: 50px;
+}
+
+input{
+  width:300px;
+  height: 30px;
+  border-bottom: 2px solid white;
+  background-color: inherit;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  size: 20px;
+}
+
+input.ng-invalid.ng-touched{
+  border-bottom-color: red;
+}
+
+input:hover{
+  transform: translateY(5px);
+  transition-duration: 0.4s;
+}
+
+img.i1{
+  width: 100px;
+  height: 100px;
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-right: 0px;
+  float: none;
+  position: relative;
+}
+
+option{
+  color:white;
+  background-color: #642EFE;
+  height:25px;
+}
+
+select{
+  background-color: inherit;
+  width:200px;
+  height: 30px;
+  color: white;
+}
+
+button,input[type=submit]{
+  width: 80px;
+  height: 40px;
+  align-self: center;
+  text-align: center;
+  background-color:green;
+  font-size: 12;
+  border: 2px solid white;
+  box-shadow: 0 8px 5px 0 green green;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: ;
+    transform: translateY(3px);
+    transition: 0.4s all ease;
+}
